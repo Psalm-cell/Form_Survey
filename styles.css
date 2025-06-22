@@ -1,0 +1,73 @@
+        * {
+            color: white;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgba(128, 0, 128, 0.5);
+            background-image: url('./survey-form-background.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        h1 , p  {
+            text-align: center;
+        }
+        #title {
+            padding: 30px;
+            padding-bottom: 7px;
+            margin: auto;
+            font-size: 22px;
+        }
+        #description {
+            padding: 0;
+            margin: 0;
+            font-size: 16px;
+        }
+        div {
+            width: 70%;
+            margin: auto;
+            min-width: 400px;
+            max-width: 700px;
+        }
+        #survey-form {
+            background-color: rgba(0, 0, 139, 0.7);
+            padding: 30px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin: 10px;
+
+        }
+        button {
+        margin: auto;
+        background-color: green;
+        font-size: large;
+        padding: 10px;
+        width: 100%;
+        }
+        #name , #email {
+            width: 100%;
+        }
+        input {
+            color: black;
+            padding: 8px;
+            border-radius: 7px;
+            margin-top: 10px;
+        }
+        textarea {
+            color: black;
+        }
+        #role , #feature {
+            color: black;
+            padding: 8px;
+            border-radius: 7px;
+        }
+        option {
+            color: black;
+        }
+        textarea {
+            width: 100%
+        }
+        select {
+            width: 100%;
+        }

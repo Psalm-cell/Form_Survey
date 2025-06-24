@@ -4,11 +4,15 @@
             box-sizing: border-box;
         }
         body {
-            background-color: rgba(128, 0, 128, 0.5);
             background-image: url('./survey-form-background.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
+            background-position: center;
+        }
+        #container {
+            background-color: rgba(128, 0, 128, 0.5);
+            width: 100vw;
         }
         h1 , p  {
             text-align: center;
@@ -25,7 +29,7 @@
             font-size: 16px;
         }
         div {
-            width: 70%;
+            width: 80%;
             margin: auto;
             min-width: 400px;
             max-width: 700px;
